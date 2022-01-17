@@ -1,9 +1,2 @@
-local pl = game.Players.LocalPlayer
 
-if pl.Username == "srivathsanYTuber" then
-	print("Whitelist #2 = success! :) Noice!")
-
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Skrapisismyscript/Main-Script/main/.gitignore", true))()
-else
-	pl:Kick("Whitelist #2 has failed :( pls try again later!")
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skrapisismyscript/Main-Script/main/.gitignore", true))()
